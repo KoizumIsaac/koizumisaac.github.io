@@ -1,8 +1,41 @@
-h1 {
+h2 {
   color:white;
+  margin: 0px;
+  max-width: fit-content;
 }
 
-information-column {
-  align-self:center;
-  
+h3 {
+  color:white;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  max-width: fit-content;
+}
+
+p {
+  color:white;
+  font-size: 12px;
+}
+
+hr {
+  color: whitesmoke;
+  width: 99%;
+}
+
+.information-column {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 100%;
+}
+
+.intro {
+  padding: 5px;
+  outline: solid;
+  outline-width: 1px;
+  outline-color: white;
+  border-radius:10px;
 }
