@@ -32,10 +32,11 @@ hr {
   height: 100%;
 }
 
-.intro {
-  padding: 5px;
-  outline: solid;
-  outline-width: 1px;
-  outline-color: white;
+.panels {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(95, 97, 111);
   border-radius:10px;
+  box-shadow: 10px;
+  filter:drop-shadow(white 0px 2px 3px);
 }
