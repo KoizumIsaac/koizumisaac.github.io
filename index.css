@@ -1,3 +1,5 @@
+
+
 h2 {
   color:white;
   margin: 0px;
@@ -24,12 +26,31 @@ hr {
 }
 
 .information-column {
+  margin: 10px;
   display: flex;
   flex-direction: column;
+  margin: 0px;
+  width: 80%;
+  height: 100%;
+}
+
+.rows {
+  display: flex;
+  flex-direction: row;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 70%;
   height: 100%;
+}
+
+.columntwo {
+  margin: 10px;
+  padding: 10px;
+  width: 20%;
+  background-color: rgb(95, 97, 111);
+  border-radius:10px;
+  box-shadow: 10px;
+  filter:drop-shadow(white 0px 2px 3px);
 }
 
 .panels {
@@ -39,4 +60,14 @@ hr {
   border-radius:10px;
   box-shadow: 10px;
   filter:drop-shadow(white 0px 2px 3px);
+}
+
+.panels:hover {
+  filter:drop-shadow(white 0px 2px 5px);
+  transition-duration: 0.5s;
+}
+
+.columntwo:hover {
+  filter:drop-shadow(white 0px 2px 5px);
+  transition-duration: 0.5s;
 }
