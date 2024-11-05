@@ -1,4 +1,6 @@
-
+html * {
+  font-family: 'Arial'
+}
 
 h2 {
   color:white;
